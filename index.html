@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>benwon 飯團媽團購批發</title>
+  <title>過年大賞</title>
 
 
 <!-- CSS -->
@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="css/bootstrap.css"></link>
 <link rel="stylesheet" href="css/bootstrap.min.css"></link>
 <link rel="stylesheet" href="css/benwon.css"></link>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap"></link>
 <!-- CSS -->
 
 <!-- JS -->
@@ -38,16 +39,16 @@
 $(function() {
    /* 按下GoTop按鈕時的事件 */
    $('#gotop').click(function(){
-       $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
-       return false;
-   });
-
+       jQuery("html,body").animate({
+         scrollTop:0
+     },800);
+ });
    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
    $(window).scroll(function() {
-       if ( $(this).scrollTop() > 200){
-           $('#gotop').fadeIn();
+       if ( $(this).scrollTop() > 300){
+           $('#gotop').fadeIn("fast");
        } else {
-           $('#gotop').fadeOut();
+           $('#gotop').stop().fadeOut("fast");
        }
    });
 });

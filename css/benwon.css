@@ -665,87 +665,34 @@ input.qtyminus {
 #gotop {
   position: fixed;
   z-index: 20;
-  width:41px;
-  height:41px;
-  opacity: 0.95;
-  line-height:40px;
-  transition:all 0.3s;
-  text-align: center;
-  background:#381e1d;
-  border-radius:100%;
-  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.20), 0 2px 5px 0 rgba(0,0,0,0.20);
-}
-#gotop:hover {
-  color: #fff;
-  background:#dc4146;
-}
-
-.gotop {
-  font-size:35px ;
-  margin: 3px 0px 0 0 ;
-}
-
-#shop_cart {
-  position: fixed;
-  z-index: 30;
   width:60px;
   height:60px;
   opacity: 0.95;
   line-height:40px;
   transition:all 0.3s;
   text-align: center;
-  background:#381e1d;
+  background:#FF4848;
   border-radius:100%;
   box-shadow: 0 5px 5px 0 rgba(0,0,0,0.20), 0 2px 5px 0 rgba(0,0,0,0.20);
 }
-#shop_cart:hover {
+#gotop:hover {
   color: #fff;
-  background:#dc4146;
+  background:#FF4848;
 }
 
-.shop_cart {
-  font-size:35px ;
-  margin: 13px 2px 0 0 ;
-}
-
-#shop_cart_red {
-  position: fixed;
-  z-index: 31;
-  width:12px;
-  height:12px;
-  margin:0px 0px 0 0;
-  opacity: 1;
-  line-height:40px;
-  transition:all 0.3s;
-  text-align: center;
-  background:#f00;
-  border-radius:100%;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.50), 0 2px 2px 0 rgba(0,0,0,0.50);
+.gotop {
+  font-size:50px ;
+  margin: 5px 0px 0 0 ;
 }
 
 .gotop_web {
-  right:35px;
-  bottom: 30px;
+  right: 40px;
+  top: 50px;
 }
 
 .gotop_phone {
-  right:10px;
-  bottom: 30px;
-}
-
-.shop_cart_web {
-  right:35px;
-  top: 30px;
-}
-
-.shop_cart_phone {
-  right:10px;
-  bottom: 90px;
-}
-
-.shop_cart_phone_red {
-  right:8px;
-  bottom: 137px;
+  right: 10px;
+  top: 20px;
 }
 
 
@@ -989,6 +936,10 @@ div a {
 .width-844 {
   max-width: 844px;
   max-height: 450px;
+}
+
+.width-1200 {
+  max-width: 1200px;
 }
 
 /*下方logo*/

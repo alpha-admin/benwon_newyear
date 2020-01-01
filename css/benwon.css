@@ -942,6 +942,10 @@ div a {
   max-width: 1200px;
 }
 
+.width-800 {
+  max-width: 800px;
+}
+
 /*下方logo*/
 .product_pg_bottom_logo {
   max-width: 70px;
